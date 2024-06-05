@@ -1,0 +1,9 @@
+﻿@model List<Marka>
+
+<h1>INdex</h>
+    <ul>
+        @foreach (var item in Model)
+        {
+          <li><a href="/model/index?markaId= @item.Id">@item.Name</a></li>
+        }
+    </ul>

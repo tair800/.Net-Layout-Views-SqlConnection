@@ -1,0 +1,10 @@
+﻿@model TestVM
+<ul>
+    @foreach (var item in Model.Cars)
+    {
+        <li>
+            @item.Name
+        </li>
+    }
+</ul>
+<h1>@Model.Marka.Name</h1>
